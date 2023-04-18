@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="y,6rXd/#A?R7@WB-_e.U">strip</variable><variable id="n:Vo$Q:FC6,he?/RuB00">sprite</variable></variables><block type="device_forever" id="c~I3wG7+T+T_%Zrwy}!b" x="147" y="-1540"><statement name="HANDLER"><block type="device_show_leds" id="1$+sA8!~_gI.Vs0WW-Uk"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="mR%M_oP)aK^iO,lD.;[r"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # # . # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="V(ZM$}(6Til_Dar3`}p_"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="$Ifoqs*KVya7*XLIJPAU"><field name="LEDS">`
+        . . . . . 
+        # . . . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="XOQ7y})[b-rKbJfST(r("><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="Br,,-$whsY=|~7%LyR84"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="K0sDItA5kbxSWOTD@)uD"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="ab-Pa4F5kVr9pk,fboRc"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Pz/hNazgfMQXGZMeP7kK"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="m9-@lM_Ysmy!Z@)(QTf~"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # . . . # 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="game_pause" id="VF,OGV,N8)hvWu(yBg3A"><next><block type="game_resume" id="d2^z%TuWBSr_XL8Cpy-v"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id=".c=4(;z:^hrykgch/m(1" x="340" y="-268"><statement name="HANDLER"><block type="variables_set" id="e]@KYqO#edE5qz{WD|j/"><field name="VAR" id="y,6rXd/#A?R7@WB-_e.U">strip</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="text_join" id="A]klNCOaDTJ~M:aIUR7z"><mutation items="3"></mutation><value name="ADD0"><shadow type="text" id="H{wEAK4/i%Y?d8672D6O"><field name="TEXT">me</field></shadow></value><value name="ADD1"><shadow type="text" id="CR}4~HZF9p/tfbJ%0W1="><field name="TEXT">and folow me</field></shadow></value><value name="ADD2"><shadow type="text" id="y=Glw_@3F_{7iUFpa-Mh"><field name="TEXT">please!</field></shadow></value></block></value><next><block type="typescript_statement" id="iJ`%T{4dN}]Ddj|(sh1+" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="pins.digitalReadPin(DigitalPin.P0)" numlines="1"></mutation><next><block type="serial_writestring" id="[/SZ$Qz9q*5)(I|08.Nd"><value name="text"><shadow type="text" id="#3--[zf.1Gcq!Y-w.=:i"><field name="TEXT">I'm the best microbit I know</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="9Zsl92=VRS,z{=VQ02ur" x="334" y="-139"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="playMelody" id=")eTg;eX?s{t|G1zcaH)V"><value name="melody"><shadow type="melody_editor" id="}NOTA;P;:a2nqX4JbdQ7"><field name="melody">"G B A G C5 B A B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="0!^Ni[_3u57@In`/;Mtl"><mutation min="40" max="500" label="Number" precision="0"></mutation><field name="SLIDER">11</field></shadow></value></block></statement></block><block type="control_in_background" id="I2$^9Z,G/!(_kel4z.X5" x="0" y="0"></block><block type="soundExpression_playSoundEffect" id="kgL3k9dwcdgb^GVV`bX0" disabled="true" x="466" y="49"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_createSoundEffect" id="oJ$|pm8iw^ce:71]HA]e" inline="true" disabled="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><value name="startFrequency"><shadow type="math_number_minmax" id=")!r+0h?jyk|V`LWN-ZCT" disabled="true"><mutation min="0" max="5000" label="Number" precision="0"></mutation><field name="SLIDER">10</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id=",hyfxq^F`f4b(x4_?%,I" disabled="true"><mutation min="0" max="5000" label="Number" precision="0"></mutation><field name="SLIDER">40</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="(YwlF{:MrHIUJw`ggqr*" disabled="true"><mutation min="1" max="9999" label="Number" precision="0"></mutation><field name="SLIDER">82</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="Zz7RsG@:5jOJ0d(:vaZI" disabled="true"><mutation min="0" max="255" label="Number" precision="0"></mutation><field name="SLIDER">25</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="of*.J-G4wEeeR8]+BO-0" disabled="true"><mutation min="0" max="255" label="Number" precision="0"></mutation><field name="SLIDER">47</field></shadow></value></shadow></value></block><block type="game_sprite_touching_sprite" id="wrg_~4ynMC*6^XRPDY$%" disabled="true" x="392" y="306"><value name="sprite"><block type="variables_get" id="plAyW(S6HCFIUbw0WPCM" disabled="true"><field name="VAR" id="n:Vo$Q:FC6,he?/RuB00">sprite</field></block></value></block><block type="game_isgameover" id="v_.li1Cu!D8W40IN}mrR" disabled="true" x="672" y="365"></block></xml>
